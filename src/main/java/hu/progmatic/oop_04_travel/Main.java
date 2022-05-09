@@ -55,5 +55,11 @@ public class Main {
         for (Travel travel : travels) {
             System.out.println(travel);
         }
+
+        // Távolság bekérése, megadott távolságnál hosszabb utazások kiírása.
+    }
+
+    private static List<Travel> filterTravelsByMinDistance(List<Travel> travels, int minDistance) {
+        return null;
     }
 }
