@@ -57,6 +57,7 @@ public class Main {
         }
 
         // Távolság bekérése, megadott távolságnál hosszabb utazások kiírása.
+        System.out.println("Kérem a minimális távolságot.");
         int distance = scanner.nextInt();
 
         List<Travel> filtered = filterTravelsByMinDistance(travels, distance);
