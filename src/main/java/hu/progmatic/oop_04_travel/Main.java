@@ -30,11 +30,21 @@ public class Main {
         System.out.println("Kérem az utazások adatait, ha végeztél, akkor írjál egy üres sort.");
 
         do {
-            data = scanner.nextLine();
             // Adjuk hozzá az új utazásokat az adatbázisunkhoz.
             // Ha egy meglévő utazás adatait adta meg a felhasználó,
             // akkor ne hozzunk létre új utazást, hanem frissítük a meglévőt.
             // (Honnan tudjuk, hogy már létezik egy utazás?)
+            data = scanner.nextLine();
+            Travel travel = new Travel(data);
+
+            if (!travels.contains(travel)) {
+                // hozzáadás
+                travels.add(travel);
+            } else {
+                // meglévő frissítése
+                int index = travels.indexOf(travel);
+                travels.set(index, travel);
+            }
         } while (!data.isBlank());
 
         System.out.println("A megadott utazások adatai:");
