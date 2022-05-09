@@ -6,6 +6,21 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        /*
+            List<T>
+            -------------------
+            add(T)
+            add(int index, T)
+            contains(T)
+            clear()
+            T get(int index)
+            int indexOf(T)
+            remove(int index)
+            set(int index, T)
+
+            for (T element : list) {}
+         */
+
         Scanner scanner = new Scanner(System.in);
         List<Travel> travels = new ArrayList<>();
 
