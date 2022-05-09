@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4101622d-72c0-447c-9c85-ade501e26886" name="Changes" comment="bm: update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_02_generics/ChangeTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_02_generics/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_02_generics/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_02_generics/OperatingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_03_list/CrewMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_03_list/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_03_list/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -49,7 +49,7 @@
       <recent name="C:\Users\Balázs\IdeaProjects\oop-data\src\main\java\hu\progmatic\oop_02_generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.hu.progmatic.oop_02_generics.Main">
+  <component name="RunManager" selected="Application.hu.progmatic.oop_03_list.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hu.progmatic.oop_01_generics.Main" />
       <module name="oop-data" />
@@ -76,8 +76,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="hu.progmatic.oop_03_list.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.progmatic.oop_03_list.Main" />
+      <module name="oop-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.progmatic.oop_03_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hu.progmatic.oop_03_list.Main" />
         <item itemvalue="Application.hu.progmatic.oop_02_generics.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -91,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652108498395</updated>
-      <workItem from="1652108505784" duration="2493000" />
+      <workItem from="1652108505784" duration="6134000" />
     </task>
     <task id="LOCAL-00001" summary="bm: update">
       <created>1652110280686</created>
@@ -100,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652110280687</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="bm: update">
+      <created>1652111386141</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652111386141</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
