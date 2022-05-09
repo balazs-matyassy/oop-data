@@ -35,15 +35,18 @@ public class Main {
             // akkor ne hozzunk létre új utazást, hanem frissítük a meglévőt.
             // (Honnan tudjuk, hogy már létezik egy utazás?)
             data = scanner.nextLine();
-            Travel travel = new Travel(data);
 
-            if (!travels.contains(travel)) {
-                // hozzáadás
-                travels.add(travel);
-            } else {
-                // meglévő frissítése
-                int index = travels.indexOf(travel);
-                travels.set(index, travel);
+            if (!data.isBlank()) {
+                Travel travel = new Travel(data);
+
+                if (!travels.contains(travel)) {
+                    // hozzáadás
+                    travels.add(travel);
+                } else {
+                    // meglévő frissítése
+                    int index = travels.indexOf(travel);
+                    travels.set(index, travel);
+                }
             }
         } while (!data.isBlank());
 
