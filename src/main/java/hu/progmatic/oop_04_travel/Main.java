@@ -57,9 +57,24 @@ public class Main {
         }
 
         // Távolság bekérése, megadott távolságnál hosszabb utazások kiírása.
+        int distance = scanner.nextInt();
+
+        List<Travel> filtered = filterTravelsByMinDistance(travels, distance);
+
+        for (Travel travel : filtered) {
+            System.out.println(travel);
+        }
     }
 
     private static List<Travel> filterTravelsByMinDistance(List<Travel> travels, int minDistance) {
-        return null;
+        List<Travel> filtered = new ArrayList<>();
+
+        for (Travel travel : travels) {
+            if (travel.getDistance() >= minDistance) {
+                filtered.add(travel);
+            }
+        }
+
+        return filtered;
     }
 }
