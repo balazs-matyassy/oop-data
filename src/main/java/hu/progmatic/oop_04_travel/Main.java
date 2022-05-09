@@ -15,6 +15,10 @@ public class Main {
 
         do {
             data = scanner.nextLine();
+            // Adjuk hozzá az új utazásokat az adatbázisunkhoz.
+            // Ha egy meglévő utazás adatait adta meg a felhasználó,
+            // akkor ne hozzunk létre új utazást, hanem frissítük a meglévőt.
+            // (Honnan tudjuk, hogy már létezik egy utazás?)
         } while (!data.isBlank());
 
         System.out.println("A megadott utazások adatai:");
