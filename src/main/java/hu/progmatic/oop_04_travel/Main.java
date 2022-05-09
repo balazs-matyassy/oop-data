@@ -17,6 +17,7 @@ public class Main {
             int indexOf(T)
             remove(int index)
             set(int index, T)
+            int size()
 
             for (T element : list) {}
          */
