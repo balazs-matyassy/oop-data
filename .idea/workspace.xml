@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4101622d-72c0-447c-9c85-ade501e26886" name="Changes" comment="bm: update" />
+    <list default="true" id="4101622d-72c0-447c-9c85-ade501e26886" name="Changes" comment="bm: update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_05_webshop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_05_webshop/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652119100642</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="bm: update">
+      <created>1652366433746</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1652366433746</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
