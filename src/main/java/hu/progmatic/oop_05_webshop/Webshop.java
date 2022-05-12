@@ -1,10 +1,13 @@
 package hu.progmatic.oop_05_webshop;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class Webshop {
     private String name;
+    private final Set<Product> products = new HashSet<>();
     private final List<Order> orders = new ArrayList<>();
 
     public Webshop() {
