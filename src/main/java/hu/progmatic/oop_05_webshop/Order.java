@@ -1,5 +1,6 @@
 package hu.progmatic.oop_05_webshop;
 
+import java.time.LocalDate;
 import java.util.Objects;
 
 public class Order {
@@ -7,6 +8,8 @@ public class Order {
     private Product product;
     private int quantity;
     private String address;
+
+    private LocalDate date;
 
     public Order(int id) {
         this.id = id;
@@ -17,6 +20,15 @@ public class Order {
         this.product = product;
         this.quantity = quantity;
         this.address = address;
+        this.date = LocalDate.now();
+    }
+
+    public Order(int id, Product product, int quantity, String address, LocalDate date) {
+        this.id = id;
+        this.product = product;
+        this.quantity = quantity;
+        this.address = address;
+        this.date = date;
     }
 
     public int getId() {
@@ -51,6 +63,14 @@ public class Order {
         return product.getPrice() * quantity;
     }
 
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -71,6 +91,7 @@ public class Order {
                 ", product=" + product +
                 ", quantity=" + quantity +
                 ", address='" + address + '\'' +
+                ", date=" + date +
                 ", price=" + getPrice() +
                 '}';
     }
