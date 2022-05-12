@@ -25,6 +25,33 @@ public class Webshop {
         this.name = name;
     }
 
+    public void updateProduct(Product product) {
+        /*if (products.contains(product)) {
+            products.remove(product);
+        }*/
+        // remove akkor sem okoz hibát, ha nem töröl semmit
+        products.remove(product);
+        products.add(product);
+    }
+
+    public void deleteProduct(Product product) {
+        products.remove(product);
+    }
+
+    public String getProductsReports() {
+        StringBuilder builder = new StringBuilder();
+
+        builder
+                .append("******************\n").append(name).append("\n")
+                .append("******************\n");
+
+        for (Product product : products) {
+            builder.append(product).append("\n");
+        }
+
+        return builder.toString();
+    }
+
     public void newOrder(String address, Product product) {
         newOrder(address, product, 1);
     }
