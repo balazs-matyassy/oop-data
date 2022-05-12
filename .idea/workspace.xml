@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4101622d-72c0-447c-9c85-ade501e26886" name="Changes" comment="bm: update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_05_webshop/Webshop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_05_webshop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_05_webshop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_05_webshop/Webshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_05_webshop/Webshop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
       <recent name="C:\Users\Balázs\IdeaProjects\oop-data\src\main\java\hu\progmatic\oop_02_generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.hu.progmatic.oop_04_travel.Main">
+  <component name="RunManager" selected="Application.hu.progmatic.oop_05_webshop.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hu.progmatic.oop_01_generics.Main" />
       <module name="oop-data" />
@@ -100,8 +101,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="hu.progmatic.oop_05_webshop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.progmatic.oop_05_webshop.Main" />
+      <module name="oop-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.progmatic.oop_05_webshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hu.progmatic.oop_05_webshop.Main" />
         <item itemvalue="Application.hu.progmatic.oop_04_travel.Main" />
         <item itemvalue="Application.hu.progmatic.oop_03_list.Main" />
         <item itemvalue="Application.hu.progmatic.oop_02_generics.Main" />
@@ -231,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652368795591</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="bm: update">
+      <created>1652369768553</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1652369768553</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

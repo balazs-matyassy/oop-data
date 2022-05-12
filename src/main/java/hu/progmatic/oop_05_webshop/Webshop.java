@@ -35,6 +35,19 @@ public class Webshop {
     }
 
     public String getOrdersReport() {
-        return null;
+        // Gyorsabbá teszi az alábbi műveletet:
+        // String report = "...";
+        // report += order + "\n";
+        StringBuilder builder = new StringBuilder();
+
+        builder
+                .append("******************\n").append(name).append("\n")
+                .append("******************\n");
+
+        for (Order order : orders) {
+            builder.append(order).append("\n");
+        }
+
+        return builder.toString();
     }
 }
