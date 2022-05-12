@@ -53,6 +53,9 @@ public class Main {
             - nem lehetnek benne duplikátumok
             -------------------
             add(T) // equals + hashCode (nem lehet duplikátum)
+            ha van a setben pl. egy Product(1, "abc", 1000) és hozzá szeretnénk adni egy új
+            Product(1, "abc", 2000)-t, akkor nem történik semmi.
+            Frissítés esetén először törölni kell a régi elemet.
             contains(T) // equals + hashCode
             clear()
             remove(Object o) // equals + hashCode
@@ -67,6 +70,7 @@ public class Main {
         // https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html
 
         Collection<Product> products = new HashSet<>();
+        Set<Product> p;
 
         for (Product product : products) {
 
@@ -78,6 +82,9 @@ public class Main {
         Webshop webshop = new Webshop("Legjobb Webshop");
         webshop.newOrder("Nekeresd", product);
         webshop.newOrder("Budapest", product2);
+
+        System.out.println(product.hashCode());
+        System.out.println(product2.hashCode());
 
         System.out.println(webshop.getOrdersReport());
     }
