@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) {
         /*
             Collection<T>
+            https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html
             - alapvető kollekció, a List<T> és a Set<T> közös "ősosztálya" (interfész)
             - be lehet járni for-each szerkezettel
             - Pl. egy termékeket kiíró jelentésnél teljesen mindegy, hogy halmazról vagy listáról van szó
@@ -27,6 +28,7 @@ public class Main {
 
         /*
             List<T> extends Collection<T>
+            https://docs.oracle.com/javase/8/docs/api/java/util/List.html
             - minden elemnek van egyértelmű sorrendje (indexe)
             - lehetnek duplikátumok
             -------------------
@@ -46,6 +48,7 @@ public class Main {
 
         /*
             Set<T> extends Collection<T>
+            https://docs.oracle.com/javase/8/docs/api/java/util/Set.html
             - az elemeknek nincsen egyértelmű indexe
             - nem lehetnek benne duplikátumok
             -------------------
@@ -58,6 +61,10 @@ public class Main {
             for (T element : list) {}
          */
         // Queue<T> (Collection<T>), Deque<T> (Collection<T>) -> szorgalmi
+        // List<T> és Set<T>-hez képest ritkábban használt adatszerkezetek.
+        // Bizonyos algoritmusokat lehet velük hatékonyan leprogramozni.
+        // https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html
+        // https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html
 
         Collection<Product> products = new HashSet<>();
 
