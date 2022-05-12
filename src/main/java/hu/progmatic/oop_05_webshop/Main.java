@@ -68,24 +68,30 @@ public class Main {
         // Bizonyos algoritmusokat lehet velük hatékonyan leprogramozni.
         // https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html
         // https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html
-
-        Collection<Product> products = new HashSet<>();
-        Set<Product> p;
-
-        for (Product product : products) {
-
-        }
-
-
-        Product product = new Product(1, "Fából vaskarika", 5000);
-        Product product2 = new Product(2, "Nesze semmi fogd meg jól", 4000);
+        Product product = new Product(1000, "Fából vaskarika", 5000);
+        Product product2 = new Product(2000, "Nesze semmi fogd meg jól", 4000);
+        Product product3 = new Product(3000, "Termék 3", 4000);
+        Product product3_v2 = new Product(3000, "Termék 3", 5500);
+        Product product4 = new Product(4000, "Termék 4", 4000);
+        Product product5 = new Product(5000, "Termék 5", 4000);
+        Product product6 = new Product(6000, "Termék 6", 4000);
         Webshop webshop = new Webshop("Legjobb Webshop");
+        webshop.updateProduct(product);
+        webshop.updateProduct(product);
+        webshop.updateProduct(product2);
+        webshop.updateProduct(product3);
+        webshop.updateProduct(product3_v2); // frissül, mivel meghívjuk a remove-t
+        webshop.updateProduct(product4);
+        webshop.updateProduct(product4);
+        webshop.updateProduct(product5);
+        webshop.updateProduct(product6);
         webshop.newOrder("Nekeresd", product);
         webshop.newOrder("Budapest", product2);
 
         System.out.println(product.hashCode());
         System.out.println(product2.hashCode());
 
+        System.out.println(webshop.getProductsReports());
         System.out.println(webshop.getOrdersReport());
     }
 }
