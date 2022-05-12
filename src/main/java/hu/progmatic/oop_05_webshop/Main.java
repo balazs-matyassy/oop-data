@@ -57,6 +57,7 @@ public class Main {
 
             for (T element : list) {}
          */
+        // Queue<T> (Collection<T>), Deque<T> (Collection<T>) -> szorgalmi
 
         Collection<Product> products = new HashSet<>();
 
