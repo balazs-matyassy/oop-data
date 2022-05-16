@@ -1,5 +1,6 @@
 package hu.progmatic.oop_08_hotel;
 
+import java.awt.print.Book;
 import java.time.LocalDate;
 import java.util.*;
 import java.util.Map.Entry;
@@ -22,6 +23,7 @@ public class Main {
         // 8. Írjuk ki állampolgárságonként csoportosítva a vendégek számát.
         // + Buborék rendezéssel rendezzünk egy Booking[] tömböt.
         //  Használjuk a compareTo metódust.
+        // 9. Ellenőrzést kapunk. A főnökünk megbíz minket, hogy töröljünk a historyból minden németekre vonatkozó adatot.
 
         System.out.println("A mai dátum: " + LocalDate.now());
 
@@ -79,6 +81,30 @@ public class Main {
         // 3. kulcs-érték páronkénti bejárás
         for (Entry<String, Integer> entry : bookingsByCitizenship.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
+        }
+
+        // 9. feladat
+        // 1. (rossz) megoldás
+        /* for (Booking booking : history) {
+            if (booking.getCitizenship().equals("DE")) {
+                history.remove(booking); // többet is törölhet, ahol equals == true
+                // https://docs.oracle.com/javase/7/docs/api/java/util/ConcurrentModificationException.html
+                // Nem mindig keletkezik, de alapvetően hibás megközelítés a ciklusban törölni.
+            }
+        } */
+
+        Iterator<Booking> iterator = history.iterator();
+
+        while (iterator.hasNext()) {
+            Booking booking = iterator.next();
+
+            if (booking.getCitizenship().equals("DE")) {
+                iterator.remove(); // utolsó visszaadott értéket törli
+            }
+        }
+
+        for (Booking booking : history) {
+            System.out.println(booking);
         }
     }
 }
