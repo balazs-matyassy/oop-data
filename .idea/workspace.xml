@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4101622d-72c0-447c-9c85-ade501e26886" name="Changes" comment="bm: update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_07_countries/City.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_07_countries/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_07_countries/Main.java" afterDir="false" />
     </list>
@@ -48,13 +49,13 @@
       <recent name="C:\Users\Balázs\IdeaProjects\oop-data\src\main\java\hu\progmatic\oop_02_generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.hu.progmatic.oop_06_webshop.Main">
-    <configuration name="hu.progmatic.oop_02_generics.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hu.progmatic.oop_02_generics.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.progmatic.oop_07_countries.Main" />
       <module name="oop-data" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hu.progmatic.oop_02_generics.*" />
+          <option name="PATTERN" value="hu.progmatic.oop_07_countries.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.hu.progmatic.oop_06_webshop.Main" />
         <item itemvalue="Application.hu.progmatic.oop_05_webshop.Main" />
         <item itemvalue="Application.hu.progmatic.oop_04_travel.Main" />
         <item itemvalue="Application.hu.progmatic.oop_03_list.Main" />
-        <item itemvalue="Application.hu.progmatic.oop_02_generics.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +317,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652713901358</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="bm: update">
+      <created>1652714404614</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1652714404614</updated>
+    </task>
+    <task id="LOCAL-00028" summary="bm: update">
+      <created>1652714429743</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1652714429743</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,5 +351,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bm: update" />
     <option name="LAST_COMMIT_MESSAGE" value="bm: update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hu/progmatic/oop_07_countries/Main.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
