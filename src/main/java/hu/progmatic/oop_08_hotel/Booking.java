@@ -91,6 +91,13 @@ public class Booking implements Comparable<Booking> {
         return Objects.hash(id);
     }
 
+    // this < o     -> -
+    // this == o    -> 0
+    // this > o     -> +
+    //
+    // 3 < 5        -> 3 - 5 = -2 (-)
+    // 3 == 3       -> 3 - 3 = 0 (0)
+    // 5 > 3        -> 5 - 3 = 2 (+)
     @Override
     public int compareTo(Booking o) {
         return id - o.id;
