@@ -10,7 +10,7 @@ public class Main {
         //  - minden mezőt egy szóközökkel elválasztott értékeket tartalmazó sorból beállító
         // 3. getterek + setterek, equals + hashCode, Comparable<Booking>
         // 4. Kérjünk be a felhasználótól a foglalások adatait,
-        // a megadott adatok alapján példányosítsuk a foglalást.
+        // a megadott adatok alapján példányosítsuk a foglalásokat.
         // 5. Tároljuk el az adatokat egy TreeSet-be (rendezett!), ha újra megadjuk egy létező foglalás adatait,
         // akkor írjuk felül a régit.
         // 6. Tároljuk el az adatokat egy Listbe (napló). Ebben a hibás verziók is szerepeljenek.
