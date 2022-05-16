@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4101622d-72c0-447c-9c85-ade501e26886" name="Changes" comment="bm: update">
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_08_hotel/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_08_hotel/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_08_hotel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_08_hotel/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,26 +48,13 @@
       <recent name="C:\Users\Balázs\IdeaProjects\oop-data\src\main\java\hu\progmatic\oop_02_generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.hu.progmatic.oop_08_hotel.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hu.progmatic.oop_07_countries.Main" />
       <module name="oop-data" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hu.progmatic.oop_07_countries.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="hu.progmatic.oop_03_list.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hu.progmatic.oop_03_list.Main" />
-      <module name="oop-data" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hu.progmatic.oop_03_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +101,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="hu.progmatic.oop_08_hotel.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.progmatic.oop_08_hotel.Main" />
+      <module name="oop-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.progmatic.oop_08_hotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hu.progmatic.oop_08_hotel.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.hu.progmatic.oop_06_webshop.Main" />
         <item itemvalue="Application.hu.progmatic.oop_05_webshop.Main" />
         <item itemvalue="Application.hu.progmatic.oop_04_travel.Main" />
-        <item itemvalue="Application.hu.progmatic.oop_03_list.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -371,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652721313736</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="bm: update">
+      <created>1652721577619</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1652721577620</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,5 +399,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bm: update" />
     <option name="LAST_COMMIT_MESSAGE" value="bm: update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hu/progmatic/oop_08_hotel/Main.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
