@@ -93,6 +93,7 @@ public class Main {
             }
         } */
 
+        // kicsit olyan, mint a láncolt listák, csak a következő tud lépni
         Iterator<Booking> iterator = history.iterator();
 
         while (iterator.hasNext()) {
