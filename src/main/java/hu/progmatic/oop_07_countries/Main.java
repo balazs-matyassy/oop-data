@@ -16,7 +16,7 @@ public class Main {
         // TÉNYLEGESEN ÉRDEMES LENNE A CITY OSZTÁLYBAN ELMENTENI AZ ORSZÁGOT.
         // NEM SZÉP EZT EGY KÜLÖN MAPBEN TÁROLNI, DE GYAKORLÁS SZEMPONTJÁBÓL JÓ.
         // -----
-        // 1. Kérjünk be szóközzel elválasztva város - ország párokat.
+        // 1. Kérjünk be szóközzel elválasztva id - város - ország párokat.
         // 2. Akkor fejezzük be a beolvasást, ha a felhasználó üres sort ad meg.
         // 3. Írjuk ki az adatbázis méretét.
         // 4. Írjuk ki a különböző nevű városokat növekvő sorrendben.
