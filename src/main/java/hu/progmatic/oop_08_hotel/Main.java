@@ -3,7 +3,7 @@ package hu.progmatic.oop_08_hotel;
 public class Main {
     public static void main(String[] args) {
         // 1. Hozzunk létre egy Booking osztályt
-        //  id, date (LocalDate), citizenship, numberOfGuests, numberOfNights, price
+        //  id, date (LocalDate, String), citizenship, numberOfGuests, numberOfNights, price
         // 2. Az osztály rendelkezzen 3 konstruktorral
         //  - csak id-t beállító
         //  - minden mezőt beállító
