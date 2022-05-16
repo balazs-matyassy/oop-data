@@ -16,5 +16,7 @@ public class Main {
         // 6. Tároljuk el az adatokat egy Listbe (napló). Ebben a hibás verziók is szerepeljenek.
         // 7. Írjuk ki a javítások számát (napló mérete - adatbázis mérete).
         // 8. Írjuk ki állampolgárságonként csoportosítva a vendégek számát.
+        // + Buborék rendezéssel rendezzünk egy Booking[] tömböt.
+        //  Használjuk a compareTo metódust.
     }
 }
