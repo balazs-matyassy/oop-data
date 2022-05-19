@@ -1,6 +1,7 @@
 package hu.progmatic.oop_09_quartals;
 
 import java.io.*;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,7 +37,42 @@ public class Main {
                 System.out.println(line);
             }
 
+            // ha előbb kivétel keletkezik, akkor nem kerül lezárásra az erőforrás
+            // igaziból a finally blokkban lenne a helye
             reader.close(); // ez nem teljesen szép
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println();
+        System.out.println("==============================");
+        System.out.println();
+
+        // Try-with resources
+        // Nincs szükség csak az erőforrások garantált lezárása miatt finally blokkra
+        // automatikusan meghívja a close metódust (kezeli a close közben keletkező hibákat is)
+        try (BufferedReader reader = new BufferedReader(new FileReader("data\\quartals.txt"))) {
+            String line;
+
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println();
+        System.out.println("==============================");
+        System.out.println();
+
+        try {
+            Scanner scanner = new Scanner(new File("quartals.txt"));
+
+            while (scanner.hasNextLine()) {
+                System.out.println(scanner.nextLine());
+            }
+
+            scanner.close(); // nem teljesen szép
         } catch (IOException e) {
             e.printStackTrace();
         }
