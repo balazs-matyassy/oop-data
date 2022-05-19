@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4101622d-72c0-447c-9c85-ade501e26886" name="Changes" comment="bm: update">
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_08_hotel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_08_hotel/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartals.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/oop_09_quartals/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,41 +34,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Balázs/IdeaProjects/oop-data/src/main/java/hu/progmatic/oop_06_webshop&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Balázs/IdeaProjects/oop-data"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Balázs\IdeaProjects\oop-data" />
       <recent name="C:\Users\Balázs\IdeaProjects\oop-data\src\main\java\hu\progmatic\oop_06_webshop" />
       <recent name="C:\Users\Balázs\IdeaProjects\oop-data\src\main\java\hu\progmatic\oop_02_generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.hu.progmatic.oop_08_hotel.Main">
+  <component name="RunManager" selected="Application.hu.progmatic.oop_09_quartals.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hu.progmatic.oop_07_countries.Main" />
       <module name="oop-data" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hu.progmatic.oop_07_countries.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="hu.progmatic.oop_04_travel.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hu.progmatic.oop_04_travel.Main" />
-      <module name="oop-data" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hu.progmatic.oop_04_travel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="hu.progmatic.oop_09_quartals.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.progmatic.oop_09_quartals.Main" />
+      <module name="oop-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.progmatic.oop_09_quartals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hu.progmatic.oop_09_quartals.Main" />
         <item itemvalue="Application.hu.progmatic.oop_08_hotel.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.hu.progmatic.oop_06_webshop.Main" />
         <item itemvalue="Application.hu.progmatic.oop_05_webshop.Main" />
-        <item itemvalue="Application.hu.progmatic.oop_04_travel.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652723771544</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="bm: update">
+      <created>1652723826982</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1652723826982</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
