@@ -27,6 +27,11 @@ public class Main {
             // 6. feladat
             List<Quartal> quartals = new ArrayList<>();
 
+            // https://docs.oracle.com/javase/7/docs/api/java/io/Reader.html
+            // https://docs.oracle.com/javase/7/docs/api/java/io/StringReader.html
+            // https://docs.oracle.com/javase/7/docs/api/java/io/CharArrayReader.html
+            // https://docs.oracle.com/javase/7/docs/api/java/io/FileReader.html
+            // https://docs.oracle.com/javase/7/docs/api/java/io/BufferedReader.html
             try (BufferedReader reader = new BufferedReader(new FileReader("quartals.txt"))) {
                 String line;
                 while ((line = reader.readLine()) != null) {
@@ -92,7 +97,22 @@ public class Main {
 
             // https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html
             // https://www.baeldung.com/java-try-with-resources
-            try (PrintWriter writer = new PrintWriter(new FileWriter("profits.txt"))) {
+            // https://docs.oracle.com/javase/7/docs/api/java/io/Writer.html
+            // https://docs.oracle.com/javase/7/docs/api/java/io/StringWriter.html
+            // https://docs.oracle.com/javase/7/docs/api/java/io/BufferedWriter.html
+            //      new BufferedWriter(new FileWriter("")) -> gyorsítja az írást,
+            //      mivel összegyűjti az adatokat és egyszerre nagyobb adagonként írja ki
+            // https://docs.oracle.com/javase/7/docs/api/java/io/FileWriter.html
+            //
+            /* try (PrintWriter writer = new PrintWriter(new FileWriter("profits.txt"))) {
+                // System.out
+                writer.println(profitableQuartals.size());
+
+                for (Quartal quartal : profitableQuartals) {
+                    writer.println(quartal.getIncome() + " " + quartal.getExpenditure() + " " + quartal.getProfit());
+                }
+            } */
+            try (PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("profits.txt")))) {
                 // System.out
                 writer.println(profitableQuartals.size());
 
