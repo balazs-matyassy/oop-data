@@ -103,7 +103,9 @@ public class Main {
             //      new BufferedWriter(new FileWriter("")) -> gyorsítja az írást,
             //      mivel összegyűjti az adatokat és egyszerre nagyobb adagonként írja ki
             // https://docs.oracle.com/javase/7/docs/api/java/io/FileWriter.html
-            //
+            // https://docs.oracle.com/javase/7/docs/api/java/io/PrintWriter.html
+            //      Képes összetett formázásokra (println, printf),
+            //      a kész formázott szöveget továbbítja a becsomagolt writernek.
             /* try (PrintWriter writer = new PrintWriter(new FileWriter("profits.txt"))) {
                 // System.out
                 writer.println(profitableQuartals.size());
