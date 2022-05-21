@@ -114,8 +114,22 @@ public class Main {
                     writer.println(quartal.getIncome() + " " + quartal.getExpenditure() + " " + quartal.getProfit());
                 }
             } */
+            /* try (PrintWriter writer = new PrintWriter("profits.tx")) {
+                writer.println(profitableQuartals.size());
+
+                for (Quartal quartal : profitableQuartals) {
+                    writer.println(quartal.getIncome() + " " + quartal.getExpenditure() + " " + quartal.getProfit());
+                }
+            } */
+            /* try (PrintWriter writer = new PrintWriter(new File("profits.tx"))) {
+                writer.println(profitableQuartals.size());
+
+                for (Quartal quartal : profitableQuartals) {
+                    writer.println(quartal.getIncome() + " " + quartal.getExpenditure() + " " + quartal.getProfit());
+                }
+            } */
             try (PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("profits.txt")))) {
-                // System.out
+                // System.out -> PrintOutputStream
                 writer.println(profitableQuartals.size());
 
                 for (Quartal quartal : profitableQuartals) {
