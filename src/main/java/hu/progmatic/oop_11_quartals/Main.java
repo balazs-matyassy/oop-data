@@ -1,8 +1,6 @@
 package hu.progmatic.oop_11_quartals;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,6 +20,9 @@ public class Main {
         // 9. Határozzuk meg a legnagyobb veszteséget.
         // 10. Hány veszteséges negyedév volt?
         // 11. Mennyi volt az összes bevétel?
+        // -----------------------------
+        // 12. Írjuk ki fájlba a nyereséges negyedévek adatait (income, expenditure, profit).
+        // A fájl első sorában szerepeljen a nyereséges negyedévek száma.
         try {
             // 6. feladat
             List<Quartal> quartals = new ArrayList<>();
@@ -78,6 +79,27 @@ public class Main {
             }
 
             System.out.println("Összes bevétel: " + totalIncome);
+
+            // 12. feladat
+            List<Quartal> profitableQuartals = new ArrayList<>();
+
+            // nyereséges negyedévek kiválogatása
+            for (Quartal quartal : quartals) {
+                if (quartal.getProfit() > 0) {
+                    profitableQuartals.add(quartal);
+                }
+            }
+
+            // https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html
+            // https://www.baeldung.com/java-try-with-resources
+            try (PrintWriter writer = new PrintWriter(new FileWriter("profits.txt"))) {
+                // System.out
+                writer.println(profitableQuartals.size());
+
+                for (Quartal quartal : profitableQuartals) {
+                    writer.println(quartal.getIncome() + " " + quartal.getExpenditure() + " " + quartal.getProfit());
+                }
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
