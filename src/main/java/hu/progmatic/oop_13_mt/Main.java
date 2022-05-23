@@ -24,6 +24,15 @@ public class Main {
             e.printStackTrace();
         }
 
+        // Kiegészítő anyagok:
+        // eseményre várakozás:
+        // Object.wait
+        // Object.notify
+
+        // fork-join framework
+        // concurrent (pl. Lock...)
+        // stream (Java 8+)
+
         System.out.println("Vége");
 
         // scanner.nextLine();
