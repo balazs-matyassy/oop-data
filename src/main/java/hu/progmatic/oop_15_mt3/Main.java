@@ -1,4 +1,4 @@
-package hu.progmatic.oop_14_mt3;
+package hu.progmatic.oop_15_mt3;
 
 import java.time.Duration;
 import java.time.LocalDateTime;

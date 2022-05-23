@@ -1,4 +1,4 @@
-package hu.progmatic.oop_14_mt3;
+package hu.progmatic.oop_15_mt3;
 
 public class SumProcess implements Runnable {
     private final int[] numbers;
